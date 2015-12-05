@@ -100,10 +100,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="bHi-59-tMp">
             <objects>
-                <viewController id="gg7-an-InP" sceneMemberID="viewController">
+                <viewController id="gg7-an-InP" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6pd-gZ-lC3"/>
                         <viewControllerLayoutGuide type="bottom" id="A8M-tM-mXd"/>
@@ -133,13 +133,16 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbS-Pd-7Ef">
-                                <rect key="frame" x="357" y="349" width="38" height="30"/>
+                                <rect key="frame" x="482" y="349" width="38" height="30"/>
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="gg7-an-InP" eventType="touchUpInside" id="4td-r9-Y6q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHp-Dq-TVK">
-                                <rect key="frame" x="197" y="349" width="48" height="30"/>
+                                <rect key="frame" x="80" y="349" width="48" height="30"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -168,9 +171,9 @@
                             <constraint firstItem="kiY-ZV-iPX" firstAttribute="leading" secondItem="Vq0-gp-eea" secondAttribute="leading" id="ToB-E9-tUi"/>
                             <constraint firstItem="Qyx-ef-Ulf" firstAttribute="top" secondItem="kiY-ZV-iPX" secondAttribute="top" id="g6S-oD-hVi"/>
                             <constraint firstItem="Vq0-gp-eea" firstAttribute="leading" secondItem="0Ng-dn-4SB" secondAttribute="leading" id="hws-jO-XQ2"/>
-                            <constraint firstItem="eHp-Dq-TVK" firstAttribute="leading" secondItem="x6m-dC-rSP" secondAttribute="leading" constant="197" id="o6h-FB-ZIO"/>
+                            <constraint firstItem="eHp-Dq-TVK" firstAttribute="leading" secondItem="x6m-dC-rSP" secondAttribute="leading" constant="80" id="o6h-FB-ZIO"/>
                             <constraint firstItem="Qyx-ef-Ulf" firstAttribute="leading" secondItem="0Ng-dn-4SB" secondAttribute="leading" id="yBp-It-hAR"/>
-                            <constraint firstAttribute="trailing" secondItem="SbS-Pd-7Ef" secondAttribute="trailing" constant="205" id="z5U-yx-1aZ"/>
+                            <constraint firstAttribute="trailing" secondItem="SbS-Pd-7Ef" secondAttribute="trailing" constant="80" id="z5U-yx-1aZ"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">

@@ -37,6 +37,7 @@
 		560649DE1C129E1D00723346 /* buttons_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 560649DC1C129E1D00723346 /* buttons_login.png */; };
 		560649DF1C129E1D00723346 /* buttons_signin.png in Resources */ = {isa = PBXBuildFile; fileRef = 560649DD1C129E1D00723346 /* buttons_signin.png */; };
 		560649E11C12A04000723346 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 560649E01C12A04000723346 /* logo.png */; };
+		560649E41C12A74200723346 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560649E31C12A74200723346 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,8 @@
 		560649DC1C129E1D00723346 /* buttons_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons_login.png; sourceTree = "<group>"; };
 		560649DD1C129E1D00723346 /* buttons_signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons_signin.png; sourceTree = "<group>"; };
 		560649E01C12A04000723346 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		560649E21C12A74200723346 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/LoginViewController.h; sourceTree = "<group>"; };
+		560649E31C12A74200723346 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 			children = (
 				560649D71C12975C00723346 /* LandingViewController.h */,
 				560649D81C12975C00723346 /* LandingViewController.m */,
+				560649E21C12A74200723346 /* LoginViewController.h */,
+				560649E31C12A74200723346 /* LoginViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 				560649891C127C6300723346 /* AppDelegate.m in Sources */,
 				560649D91C12975C00723346 /* LandingViewController.m in Sources */,
 				560649861C127C6300723346 /* main.m in Sources */,
+				560649E41C12A74200723346 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
