@@ -16,8 +16,6 @@
 		560649A01C127C6300723346 /* MarkerNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5606499F1C127C6300723346 /* MarkerNetworkTests.m */; };
 		560649B01C127C7300723346 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649AA1C127C7300723346 /* Bolts.framework */; };
 		560649B11C127C7400723346 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649AB1C127C7300723346 /* Parse.framework */; };
-		560649B21C127C7400723346 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649AC1C127C7300723346 /* ParseFacebookUtils.framework */; };
-		560649B31C127C7400723346 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649AD1C127C7300723346 /* ParseFacebookUtilsV4.framework */; };
 		560649B41C127C7400723346 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649AE1C127C7300723346 /* ParseTwitterUtils.framework */; };
 		560649B51C127C7400723346 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649AF1C127C7300723346 /* ParseUI.framework */; };
 		560649B71C127C9300723346 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649B61C127C9300723346 /* AudioToolbox.framework */; };
@@ -38,6 +36,7 @@
 		560649DF1C129E1D00723346 /* buttons_signin.png in Resources */ = {isa = PBXBuildFile; fileRef = 560649DD1C129E1D00723346 /* buttons_signin.png */; };
 		560649E11C12A04000723346 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 560649E01C12A04000723346 /* logo.png */; };
 		560649E41C12A74200723346 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560649E31C12A74200723346 /* LoginViewController.m */; };
+		D0F8A36128DFFF594E28E784 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDAF9B8F66076F01E048D3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +65,6 @@
 		5606499F1C127C6300723346 /* MarkerNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerNetworkTests.m; sourceTree = "<group>"; };
 		560649AA1C127C7300723346 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		560649AB1C127C7300723346 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		560649AC1C127C7300723346 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		560649AD1C127C7300723346 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		560649AE1C127C7300723346 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		560649AF1C127C7300723346 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		560649B61C127C9300723346 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -90,6 +87,9 @@
 		560649E01C12A04000723346 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		560649E21C12A74200723346 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/LoginViewController.h; sourceTree = "<group>"; };
 		560649E31C12A74200723346 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginViewController.m; sourceTree = "<group>"; };
+		6790875BF315D3CAD719B91C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD78E3AA929AD8701032C6B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F7CDAF9B8F66076F01E048D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +112,8 @@
 				560649B51C127C7400723346 /* ParseUI.framework in Frameworks */,
 				560649B11C127C7400723346 /* Parse.framework in Frameworks */,
 				560649B01C127C7300723346 /* Bolts.framework in Frameworks */,
-				560649B31C127C7400723346 /* ParseFacebookUtilsV4.framework in Frameworks */,
-				560649B21C127C7400723346 /* ParseFacebookUtils.framework in Frameworks */,
 				560649B41C127C7400723346 /* ParseTwitterUtils.framework in Frameworks */,
+				D0F8A36128DFFF594E28E784 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +134,8 @@
 				560649821C127C6300723346 /* MarkerNetwork */,
 				5606499C1C127C6300723346 /* MarkerNetworkTests */,
 				560649811C127C6300723346 /* Products */,
+				61BE52BC27A76C290D85ED9D /* Pods */,
+				6FF311A847CF4E109BC143A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,8 +208,6 @@
 				560649B61C127C9300723346 /* AudioToolbox.framework */,
 				560649AA1C127C7300723346 /* Bolts.framework */,
 				560649AB1C127C7300723346 /* Parse.framework */,
-				560649AC1C127C7300723346 /* ParseFacebookUtils.framework */,
-				560649AD1C127C7300723346 /* ParseFacebookUtilsV4.framework */,
 				560649AE1C127C7300723346 /* ParseTwitterUtils.framework */,
 				560649AF1C127C7300723346 /* ParseUI.framework */,
 			);
@@ -237,6 +236,23 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		61BE52BC27A76C290D85ED9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6790875BF315D3CAD719B91C /* Pods.debug.xcconfig */,
+				CBD78E3AA929AD8701032C6B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6FF311A847CF4E109BC143A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDAF9B8F66076F01E048D3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -244,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 560649A31C127C6300723346 /* Build configuration list for PBXNativeTarget "MarkerNetwork" */;
 			buildPhases = (
+				63F82F72241378D38256B50F /* Check Pods Manifest.lock */,
 				5606497C1C127C6300723346 /* Sources */,
 				5606497D1C127C6300723346 /* Frameworks */,
 				5606497E1C127C6300723346 /* Resources */,
+				F0BA5D3E44C8CC6BFB7311BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,6 +353,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63F82F72241378D38256B50F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BA5D3E44C8CC6BFB7311BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5606497C1C127C6300723346 /* Sources */ = {
@@ -469,6 +520,7 @@
 		};
 		560649A41C127C6300723346 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6790875BF315D3CAD719B91C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -483,6 +535,7 @@
 		};
 		560649A51C127C6300723346 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD78E3AA929AD8701032C6B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
