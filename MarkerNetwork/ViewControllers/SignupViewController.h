@@ -1,5 +1,5 @@
 //
-//  LoginViewController.h
+//  SignupViewController.h
 //  MarkerNetwork
 //
 //  Created by Fangzhou He on 5/12/2015.
@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController
+@interface SignupViewController : UIViewController
+
 @property (strong, nonatomic) IBOutlet UITextField *usernameText;
 @property (strong, nonatomic) IBOutlet UITextField *passwordText;
 
-- (IBAction)loginButton:(id)sender;
+- (IBAction)signup_button:(id)sender;
+
 @end

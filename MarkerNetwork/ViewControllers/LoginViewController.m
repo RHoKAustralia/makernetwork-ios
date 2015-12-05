@@ -7,6 +7,8 @@
 //
 
 #import "LoginViewController.h"
+#import <JGProgressHUD/JGProgressHUD.h>//;
+#import <Parse/Parse.h>
 
 @interface LoginViewController ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,5 +38,26 @@
 */
 
 - (IBAction)loginButton:(id)sender {
+    __block NSString *passwordFromServer;
+    
+    [PFUser logInWithUsernameInBackground:_usernameText.text password:_passwordText.text
+        block:^(PFUser *user, NSError *error) {
+            if (user) {
+                JGProgressHUD *HUD = [JGProgressHUD progressHUDWithStyle:JGProgressHUDStyleDark];
+                HUD.textLabel.text = @"Success!";
+                HUD.indicatorView = [[JGProgressHUDSuccessIndicatorView alloc] init]; //JGProgressHUDSuccessIndicatorView is also available
+                [HUD showInView:self.view];
+                [HUD dismissAfterDelay:2.0];
+        //                                            [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(loginSuccess:) userInfo:nil repeats:NO];
+            } else {
+                JGProgressHUD *HUD = [JGProgressHUD progressHUDWithStyle:JGProgressHUDStyleDark];
+                HUD.textLabel.text = @"Error:Invalid Username or Password";
+                HUD.indicatorView = [[JGProgressHUDErrorIndicatorView alloc] init]; //JGProgressHUDSuccessIndicatorView is also available
+                [HUD showInView:self.view];
+                [HUD dismissAfterDelay:2.0];
+            }
+        }];
+    
+    
 }
 @end

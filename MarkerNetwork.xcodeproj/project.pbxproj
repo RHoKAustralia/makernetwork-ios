@@ -31,11 +31,14 @@
 		560649CB1C127CEE00723346 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649CA1C127CEE00723346 /* Accounts.framework */; };
 		560649CD1C127CF600723346 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560649CC1C127CF600723346 /* Social.framework */; };
 		560649D91C12975C00723346 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560649D81C12975C00723346 /* LandingViewController.m */; };
-		560649DB1C1297CE00723346 /* landing_bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 560649DA1C1297CE00723346 /* landing_bg.jpeg */; };
 		560649DE1C129E1D00723346 /* buttons_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 560649DC1C129E1D00723346 /* buttons_login.png */; };
 		560649DF1C129E1D00723346 /* buttons_signin.png in Resources */ = {isa = PBXBuildFile; fileRef = 560649DD1C129E1D00723346 /* buttons_signin.png */; };
 		560649E11C12A04000723346 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 560649E01C12A04000723346 /* logo.png */; };
 		560649E41C12A74200723346 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560649E31C12A74200723346 /* LoginViewController.m */; };
+		56F2AE651C12B6AF00EE7358 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F2AE641C12B6AF00EE7358 /* SignupViewController.m */; };
+		56F2AE671C12BEF200EE7358 /* landing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 56F2AE661C12BEF200EE7358 /* landing.jpeg */; };
+		56F2AE691C12C05300EE7358 /* signup_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56F2AE681C12C05300EE7358 /* signup_bg.jpg */; };
+		56F2AE6B1C12C05E00EE7358 /* login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56F2AE6A1C12C05E00EE7358 /* login.jpg */; };
 		D0F8A36128DFFF594E28E784 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDAF9B8F66076F01E048D3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -81,12 +84,16 @@
 		560649CC1C127CF600723346 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		560649D71C12975C00723346 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LandingViewController.h; path = ViewControllers/LandingViewController.h; sourceTree = "<group>"; };
 		560649D81C12975C00723346 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LandingViewController.m; path = ViewControllers/LandingViewController.m; sourceTree = "<group>"; };
-		560649DA1C1297CE00723346 /* landing_bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landing_bg.jpeg; sourceTree = "<group>"; };
 		560649DC1C129E1D00723346 /* buttons_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons_login.png; sourceTree = "<group>"; };
 		560649DD1C129E1D00723346 /* buttons_signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons_signin.png; sourceTree = "<group>"; };
 		560649E01C12A04000723346 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		560649E21C12A74200723346 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/LoginViewController.h; sourceTree = "<group>"; };
 		560649E31C12A74200723346 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginViewController.m; sourceTree = "<group>"; };
+		56F2AE631C12B6AF00EE7358 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ViewControllers/SignupViewController.h; sourceTree = "<group>"; };
+		56F2AE641C12B6AF00EE7358 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ViewControllers/SignupViewController.m; sourceTree = "<group>"; };
+		56F2AE661C12BEF200EE7358 /* landing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landing.jpeg; sourceTree = "<group>"; };
+		56F2AE681C12C05300EE7358 /* signup_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signup_bg.jpg; sourceTree = "<group>"; };
+		56F2AE6A1C12C05E00EE7358 /* login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login.jpg; sourceTree = "<group>"; };
 		6790875BF315D3CAD719B91C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CBD78E3AA929AD8701032C6B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F7CDAF9B8F66076F01E048D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,6 +228,8 @@
 				560649D81C12975C00723346 /* LandingViewController.m */,
 				560649E21C12A74200723346 /* LoginViewController.h */,
 				560649E31C12A74200723346 /* LoginViewController.m */,
+				56F2AE631C12B6AF00EE7358 /* SignupViewController.h */,
+				56F2AE641C12B6AF00EE7358 /* SignupViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -230,7 +239,9 @@
 			children = (
 				560649DC1C129E1D00723346 /* buttons_login.png */,
 				560649DD1C129E1D00723346 /* buttons_signin.png */,
-				560649DA1C1297CE00723346 /* landing_bg.jpeg */,
+				56F2AE661C12BEF200EE7358 /* landing.jpeg */,
+				56F2AE6A1C12C05E00EE7358 /* login.jpg */,
+				56F2AE681C12C05300EE7358 /* signup_bg.jpg */,
 				560649E01C12A04000723346 /* logo.png */,
 			);
 			name = Images;
@@ -336,11 +347,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				560649DE1C129E1D00723346 /* buttons_login.png in Resources */,
-				560649DB1C1297CE00723346 /* landing_bg.jpeg in Resources */,
 				5606498F1C127C6300723346 /* Main.storyboard in Resources */,
+				56F2AE691C12C05300EE7358 /* signup_bg.jpg in Resources */,
 				560649DF1C129E1D00723346 /* buttons_signin.png in Resources */,
+				56F2AE6B1C12C05E00EE7358 /* login.jpg in Resources */,
 				560649E11C12A04000723346 /* logo.png in Resources */,
 				560649941C127C6300723346 /* LaunchScreen.xib in Resources */,
+				56F2AE671C12BEF200EE7358 /* landing.jpeg in Resources */,
 				560649911C127C6300723346 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F2AE651C12B6AF00EE7358 /* SignupViewController.m in Sources */,
 				5606498C1C127C6300723346 /* ViewController.m in Sources */,
 				560649891C127C6300723346 /* AppDelegate.m in Sources */,
 				560649D91C12975C00723346 /* LandingViewController.m in Sources */,
